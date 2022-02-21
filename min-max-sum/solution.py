@@ -14,8 +14,8 @@ import sys
 
 def miniMaxSum(arr):
     # Write your code here
-    min = sys.maxsize - 1# 32768 * 2
-    max = -sys.maxsize - 1 # 32768 * -2
+    min = sys.maxsize - 1
+    max = -sys.maxsize - 1 
 
     # calculate min of 4 of 5 numbers
     for i in range(0, len(arr)):
